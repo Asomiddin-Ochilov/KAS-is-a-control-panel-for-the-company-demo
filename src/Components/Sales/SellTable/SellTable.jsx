@@ -155,7 +155,7 @@ function SellTable({card, Sotuv, Counter1, Pays,CleansCard,Product1}) {
                                             <div className={'d-flex index'}>
 
                                                 <INPUT type="number" min={0} noStyle onChange={(e) => Pay(item, e)}
-                                                       defaultValue={item.amount}/>
+                                                       value={item.amount}/>
                                                 <Counte className={'mx-2'} onClick={() => Count1(item)}>
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="16"
                                                          height="16" fill="currentColor"
